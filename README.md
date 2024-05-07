@@ -1,3 +1,3 @@
 # AutoSimGeo-IO
 
-Pages with selected text from the paper and demonstrations
+Demonstration of autonomous simulations in geomechanics powered by LLMs
