@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
-title: AutoSimGeo 
-description: AI-driven Autonomous Simulations in Computational Geomechanics via Natural Language Instructions
+title: GeoSimAI 
+description: AI-driven Numerical Simulations in Geomechanics via Natural Language Instructions
 markdown: kramdown
 kramdown:
     math_engine: mathjax
