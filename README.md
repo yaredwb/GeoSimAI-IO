@@ -1,3 +1,3 @@
-# AutoSimGeo-IO
+# GeoSimAI-IO
 
-Demonstration of autonomous simulations in geomechanics powered by LLMs
+Demonstration of AI-driven numerical simulations in geomechanics via natiral language instructions
