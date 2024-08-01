@@ -1,3 +1,3 @@
 # GeoSim.AI Demos
 
-Demonstration of AI-driven numerical simulations in geomechanics via natiral language instructions
+Demonstration of AI-driven numerical simulations in geomechanics via natural language instructions
