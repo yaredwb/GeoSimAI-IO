@@ -25,6 +25,22 @@ The ability to accomplish tasks via natural language instructions is one of the 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U7zO1sHR3gQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<div style="display: flex; overflow-x: auto; gap: 10px;">
+
+    <div>
+        <h3>Example Chat</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/U7zO1sHR3gQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div>
+        <h3>Script Generation</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/U7zO1sHR3gQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <!-- Add more videos here -->
+
+</div>
+
 **Demo coming soon...**
 
 
