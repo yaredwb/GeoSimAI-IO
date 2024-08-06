@@ -17,7 +17,7 @@ The ability to accomplish tasks via natural language instructions is one of the 
 
 #### GeoSim.AI Interface
 
-![GeoSimAI Interface](/assets/figs/geosimai-chat-interface.png)
+![GeoSimAI Interface](/assets/figs/geosimai_chat_interface.png)
 
 **Demo coming soon...**
 
