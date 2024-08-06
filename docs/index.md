@@ -21,7 +21,7 @@ The ability to accomplish tasks via natural language instructions is one of the 
 
 #### Example Chat Screencast
 
-[![GeoSimAI Screencast](http://img.youtube.com/vi/U7zO1sHR3gQ/0.jpg)](http://www.youtube.com/watch?v=U7zO1sHR3gQ)
+[![GeoSimAI Screencast](http://img.youtube.com/vi/U7zO1sHR3gQ/0.jpg)](https://www.youtube.com/watch?v=U7zO1sHR3gQ&ab_channel=YaredW.Bekele)
 
 **Demo coming soon...**
 
