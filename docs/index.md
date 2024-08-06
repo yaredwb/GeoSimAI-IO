@@ -19,6 +19,10 @@ The ability to accomplish tasks via natural language instructions is one of the 
 
 ![GeoSimAI Interface](/assets/figs/geosimai_chat_interface.png)
 
+#### Example Chat Screencast
+
+![GeoSimAI Screencast](/assets/figs/screencast_adonis_0.mp4)
+
 **Demo coming soon...**
 
 
