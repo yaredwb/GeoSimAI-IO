@@ -19,11 +19,11 @@ The ability to accomplish tasks via natural language instructions is one of the 
 
 ![GeoSimAI Interface](/assets/figs/geosimai_chat_interface.png)
 
-#### Example Chat Screencast
+#### Demos
 
 <!-- [![GeoSimAI Screencast](http://img.youtube.com/vi/U7zO1sHR3gQ/0.jpg)](https://www.youtube.com/watch?v=U7zO1sHR3gQ&ab_channel=YaredW.Bekele) -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U7zO1sHR3gQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!--iframe width="560" height="315" src="https://www.youtube.com/embed/U7zO1sHR3gQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe-->
 
 <div style="display: flex; overflow-x: auto; gap: 10px;">
 
@@ -41,6 +41,6 @@ The ability to accomplish tasks via natural language instructions is one of the 
 
 </div>
 
-**Demo coming soon...**
+**Demos coming soon...**
 
 
