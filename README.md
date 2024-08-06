@@ -4,4 +4,4 @@ Demonstration of AI-driven numerical simulations in geomechanics via natural lan
 
 ## GeoSim.AI Interface
 
-![GeoSimAI Interface](/assets/figs/geosimai-chat-interface.png)
+![GeoSimAI Interface](/docs//assets/figs/geosimai-chat-interface.png)
