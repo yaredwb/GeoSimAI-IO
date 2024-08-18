@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
-title: GeoSim.AI 
+title: ![GeoSim.AI](https://geosim.ai/) 
 description: AI-driven Numerical Simulations in Geomechanics via Natural Language Instructions
 markdown: kramdown
 kramdown:
