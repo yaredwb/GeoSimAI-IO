@@ -4,7 +4,7 @@ title: GeoSim.AI - Coming soon...
 mathjax: true
 ---
 
-#### [Yared W. Bekele](https://yaredwb.github.io/), ###### Research Scientist at SINTEF, Rock and Soil Mechanics Group
+<!-- #### [Yared W. Bekele](https://yaredwb.github.io/), Research Scientist at SINTEF, Rock and Soil Mechanics Group -->
 
 
 ### A new paradigm in computational geomechanics
