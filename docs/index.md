@@ -16,7 +16,7 @@ The ability to accomplish tasks via natural language instructions is one of the 
 
 ![GeoSimAI Interface](/assets/figs/geosimai_chat_interface.png)
 
-#### Demos
+#### General Demos
 
 <div id="video-carousel" style="max-width: 800px; margin: 0 auto; position: relative;">
   <div id="video-container" style="display: flex; justify-content: center; align-items: center;"></div>
@@ -24,7 +24,12 @@ The ability to accomplish tasks via natural language instructions is one of the 
   <div id="next-video" class="nav-arrow" style="right: -50px;">&rsaquo;</div>
 </div>
 
-**Demos coming soon...**
+#### ADONIS Demos
+
+#### HYRCAN Demos
+
+#### Commercial Software
+Demos related to commerical software are for internal use only at the moment.
 
 <style>
   .nav-arrow {
@@ -52,7 +57,7 @@ The ability to accomplish tasks via natural language instructions is one of the 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const videos = [
-    { title: "Example Chat", id: "U7zO1sHR3gQ" },
+    { title: "General Demo", id: "U7zO1sHR3gQ" },
     { title: "Script Generation", id: "U7zO1sHR3gQ" }
   ];
   
