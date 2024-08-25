@@ -18,13 +18,36 @@ The ability to accomplish tasks via natural language instructions is one of the 
 
 #### Demos
 
-<div id="video-carousel" style="max-width: 660px; margin: 0 auto; position: relative;">
+<div id="video-carousel" style="max-width: 800px; margin: 0 auto; position: relative;">
   <div id="video-container" style="display: flex; justify-content: center; align-items: center;"></div>
-  <div id="prev-video" style="position: absolute; left: -30px; top: 50%; transform: translateY(-50%); cursor: pointer; font-size: 24px; color: #333;">&lt;</div>
-  <div id="next-video" style="position: absolute; right: -30px; top: 50%; transform: translateY(-50%); cursor: pointer; font-size: 24px; color: #333;">&gt;</div>
+  <div id="prev-video" class="nav-arrow" style="left: -50px;">&lsaquo;</div>
+  <div id="next-video" class="nav-arrow" style="right: -50px;">&rsaquo;</div>
 </div>
 
 **Demos coming soon...**
+
+<style>
+  .nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 48px;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+  .nav-arrow:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+  }
+</style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -42,8 +65,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const video = videos[index];
     videoContainer.innerHTML = `
       <div>
-        <h3>${video.title}</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/${video.id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h3 style="text-align: center;">${video.title}</h3>
+        <iframe width="760" height="428" src="https://www.youtube.com/embed/${video.id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     `;
   }
