@@ -68,8 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
     {
       id: 'general-demos-carousel',
       videos: [
-        { title: "Demo og GeoSIM.AI Interface", id: "sgYn0wJrW9A" },
-        { title: "General Demo 2", id: "sgYn0wJrW9A" }
+        { title: "Demo of GeoSim.AI Interface", id: "sgYn0wJrW9A" }
       ]
     },
     {
