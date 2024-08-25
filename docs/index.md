@@ -16,7 +16,7 @@ The ability to accomplish tasks via natural language instructions is one of the 
 
 ![GeoSimAI Interface](/assets/figs/geosimai_chat_interface_2.png)
 
-### General Demos
+### General GeoSim.AI Demos
 
 <div id="general-demos-carousel" class="video-carousel" style="max-width: 800px; margin: 0 auto; position: relative;">
   <div class="video-container" style="display: flex; justify-content: center; align-items: center;"></div>
@@ -24,7 +24,7 @@ The ability to accomplish tasks via natural language instructions is one of the 
   <div class="next-video nav-arrow" style="right: -50px;">&rsaquo;</div>
 </div>
 
-### ADONIS Demos
+### ADONIS AI Agent Demos
 
 <div id="adonis-demos-carousel" class="video-carousel" style="max-width: 800px; margin: 0 auto; position: relative;">
   <div class="video-container" style="display: flex; justify-content: center; align-items: center;"></div>
@@ -32,7 +32,7 @@ The ability to accomplish tasks via natural language instructions is one of the 
   <div class="next-video nav-arrow" style="right: -50px;">&rsaquo;</div>
 </div>
 
-### HYRCAN Demos
+### HYRCAN AI Agent Demos
 
 <div id="hyracan-demos-carousel" class="video-carousel" style="max-width: 800px; margin: 0 auto; position: relative;">
   <div class="video-container" style="display: flex; justify-content: center; align-items: center;"></div>
@@ -40,9 +40,9 @@ The ability to accomplish tasks via natural language instructions is one of the 
   <div class="next-video nav-arrow" style="right: -50px;">&rsaquo;</div>
 </div>
 
-### Commercial Software
+### AI Agents for Commercial Software
 
-Demos related to commerical software are for internal use only at the moment.
+Demos related to agents for commerical software are for internal use only at the moment.
 
 <style>
   .nav-arrow {
