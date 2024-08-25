@@ -18,17 +18,30 @@ The ability to accomplish tasks via natural language instructions is one of the 
 
 #### General Demos
 
-<div id="video-carousel" style="max-width: 800px; margin: 0 auto; position: relative;">
-  <div id="video-container" style="display: flex; justify-content: center; align-items: center;"></div>
-  <div id="prev-video" class="nav-arrow" style="left: -50px;">&lsaquo;</div>
-  <div id="next-video" class="nav-arrow" style="right: -50px;">&rsaquo;</div>
+<div id="general-demos-carousel" class="video-carousel" style="max-width: 800px; margin: 0 auto; position: relative;">
+  <div class="video-container" style="display: flex; justify-content: center; align-items: center;"></div>
+  <div class="prev-video nav-arrow" style="left: -50px;">&lsaquo;</div>
+  <div class="next-video nav-arrow" style="right: -50px;">&rsaquo;</div>
 </div>
 
 #### ADONIS Demos
 
+<div id="adonis-demos-carousel" class="video-carousel" style="max-width: 800px; margin: 0 auto; position: relative;">
+  <div class="video-container" style="display: flex; justify-content: center; align-items: center;"></div>
+  <div class="prev-video nav-arrow" style="left: -50px;">&lsaquo;</div>
+  <div class="next-video nav-arrow" style="right: -50px;">&rsaquo;</div>
+</div>
+
 #### HYRCAN Demos
 
+<div id="hyracan-demos-carousel" class="video-carousel" style="max-width: 800px; margin: 0 auto; position: relative;">
+  <div class="video-container" style="display: flex; justify-content: center; align-items: center;"></div>
+  <div class="prev-video nav-arrow" style="left: -50px;">&lsaquo;</div>
+  <div class="next-video nav-arrow" style="right: -50px;">&rsaquo;</div>
+</div>
+
 #### Commercial Software
+
 Demos related to commerical software are for internal use only at the moment.
 
 <style>
@@ -46,46 +59,62 @@ Demos related to commerical software are for internal use only at the moment.
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 0.3s ease;
-  }
-  .nav-arrow:hover {
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #000;
   }
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const videos = [
-    { title: "General Demo", id: "U7zO1sHR3gQ" },
-    { title: "Script Generation", id: "U7zO1sHR3gQ" }
+  const carousels = [
+    {
+      id: 'general-demos-carousel',
+      videos: [
+        { title: "Demo og GeoSIM.AI Interface", id: "sgYn0wJrW9A" },
+        { title: "General Demo 2", id: "sgYn0wJrW9A" }
+      ]
+    },
+    {
+      id: 'adonis-demos-carousel',
+      videos: [
+        { title: "ADONIS Demo 1", id: "sgYn0wJrW9A" },
+        { title: "ADONIS Demo 2", id: "sgYn0wJrW9A" }
+      ]
+    },
+    {
+      id: 'hyracan-demos-carousel',
+      videos: [
+        { title: "HYRCAN Demo 1", id: "sgYn0wJrW9A" },
+        { title: "HYRCAN Demo 2", id: "sgYn0wJrW9A" }
+      ]
+    }
   ];
-  
-  let currentVideoIndex = 0;
-  const videoContainer = document.getElementById('video-container');
-  const prevArrow = document.getElementById('prev-video');
-  const nextArrow = document.getElementById('next-video');
 
-  function showVideo(index) {
-    const video = videos[index];
-    videoContainer.innerHTML = `
-      <div>
-        <h3 style="text-align: center;">${video.title}</h3>
-        <iframe width="760" height="428" src="https://www.youtube.com/embed/${video.id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    `;
-  }
+  carousels.forEach(carousel => {
+    let currentVideoIndex = 0;
+    const videoContainer = document.querySelector(`#${carousel.id} .video-container`);
+    const prevArrow = document.querySelector(`#${carousel.id} .prev-video`);
+    const nextArrow = document.querySelector(`#${carousel.id} .next-video`);
 
-  prevArrow.addEventListener('click', function() {
-    currentVideoIndex = (currentVideoIndex - 1 + videos.length) % videos.length;
+    function showVideo(index) {
+      const video = carousel.videos[index];
+      videoContainer.innerHTML = `
+        <div>
+          <h3 style="text-align: center;">${video.title}</h3>
+          <iframe width="760" height="428" src="https://www.youtube.com/embed/${video.id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      `;
+    }
+
+    prevArrow.addEventListener('click', function() {
+      currentVideoIndex = (currentVideoIndex - 1 + carousel.videos.length) % carousel.videos.length;
+      showVideo(currentVideoIndex);
+    });
+
+    nextArrow.addEventListener('click', function() {
+      currentVideoIndex = (currentVideoIndex + 1) % carousel.videos.length;
+      showVideo(currentVideoIndex);
+    });
+
     showVideo(currentVideoIndex);
   });
-
-  nextArrow.addEventListener('click', function() {
-    currentVideoIndex = (currentVideoIndex + 1) % videos.length;
-    showVideo(currentVideoIndex);
-  });
-
-  showVideo(currentVideoIndex);
 });
 </script>
