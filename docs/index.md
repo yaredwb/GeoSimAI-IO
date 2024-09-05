@@ -64,6 +64,13 @@ Demos related to agents for commerical software are for internal use only at the
   }
 </style>
 
+<style>
+  .inactive-arrow {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+</style>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const carousels = [
@@ -101,6 +108,10 @@ document.addEventListener('DOMContentLoaded', function() {
           <iframe width="760" height="428" src="https://www.youtube.com/embed/${video.id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       `;
+
+      // Add or remove the 'inactive-arrow' class based on the current video index
+      prevArrow.classList.toggle('inactive-arrow', index === 0);
+      nextArrow.classList.toggle('inactive-arrow', index === carousel.videos.length - 1);
     }
 
     prevArrow.addEventListener('click', function() {
