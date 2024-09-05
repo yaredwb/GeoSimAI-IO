@@ -83,13 +83,13 @@ document.addEventListener('DOMContentLoaded', function() {
     {
       id: 'adonis-demos-carousel',
       videos: [
-        { title: "ADONIS Demo 1", id: "Te3kfmKfaSA" }
+        { title: "Text Prompt", id: "Te3kfmKfaSA" }
       ]
     },
     {
       id: 'hyracan-demos-carousel',
       videos: [
-        { title: "HYRCAN Demo 1", id: "NVIivwbvIMg" }        
+        { title: "Text Prompt", id: "NVIivwbvIMg" }        
       ]
     }
   ];
