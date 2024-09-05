@@ -26,8 +26,6 @@ The ability to accomplish tasks via natural language instructions is one of the 
   <div class="next-video nav-arrow" style="right: -50px;">&rsaquo;</div>
 </div>
 
-<!--
-
 ### ADONIS AI Agent Demos
 
 <div id="adonis-demos-carousel" class="video-carousel" style="max-width: 800px; margin: 0 auto; position: relative;">
@@ -47,8 +45,6 @@ The ability to accomplish tasks via natural language instructions is one of the 
 ### AI Agents for Commercial Software
 
 Demos related to agents for commerical software are for internal use only at the moment.
-
--->
 
 <style>
   .nav-arrow {
@@ -74,21 +70,19 @@ document.addEventListener('DOMContentLoaded', function() {
     {
       id: 'general-demos-carousel',
       videos: [
-        { title: "Demo of GeoSim.AI Interface", id: "sgYn0wJrW9A" }
+        { title: "Demo of GeoSim.AI Interface", id: "_LprVXHBT-I" }
       ]
     },
     {
       id: 'adonis-demos-carousel',
       videos: [
-        { title: "ADONIS Demo 1", id: "sgYn0wJrW9A" },
-        { title: "ADONIS Demo 2", id: "sgYn0wJrW9A" }
+        { title: "ADONIS Demo 1", id: "Te3kfmKfaSA" }
       ]
     },
     {
       id: 'hyracan-demos-carousel',
       videos: [
-        { title: "HYRCAN Demo 1", id: "sgYn0wJrW9A" },
-        { title: "HYRCAN Demo 2", id: "sgYn0wJrW9A" }
+        { title: "HYRCAN Demo 1", id: "NVIivwbvIMg" }        
       ]
     }
   ];
