@@ -44,7 +44,7 @@ The ability to accomplish tasks via natural language instructions is one of the 
 
 ### AI Agents for Commercial Software
 
-Demos related to agents for commerical software are for internal use only at the moment.
+Agents for commerical software (PLAXIS2D, PLAXIS3D, FLAC2D and FLAC3D) are only for internal use at the moment.
 
 <style>
   .nav-arrow {
