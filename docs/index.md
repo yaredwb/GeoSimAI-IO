@@ -90,27 +90,24 @@ Agents for commerical software (PLAXIS2D, PLAXIS3D, FLAC2D and FLAC3D) are only 
 
 <style>
 .video-gallery {
-  max-width: 100vw;  /* Use viewport width */
+  width: 100%;
   margin: 0 auto;
   padding: 20px 0;
-  overflow-x: hidden;  /* Hide horizontal overflow at gallery level */
 }
 
 .video-scroll-container {
-  display: flex;
-  overflow-x: auto;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: min-content;
   gap: 40px;
-  padding: 20px 40px;  /* Added horizontal padding */
-  scroll-snap-type: x mandatory;
+  padding: 20px 0;
+  overflow-x: auto;
   scrollbar-width: thin;
-  /* Make the container wider than the viewport */
-  width: calc(100vw - 80px);  /* Account for padding */
-  margin: 0 -40px;  /* Negative margin to counter padding */
+  /* Remove scroll-snap to allow smooth scrolling */
 }
 
 .video-scroll-container::-webkit-scrollbar {
   height: 8px;
-  width: calc(100vw - 80px);  /* Match container width */
 }
 
 .video-scroll-container::-webkit-scrollbar-track {
@@ -128,9 +125,8 @@ Agents for commerical software (PLAXIS2D, PLAXIS3D, FLAC2D and FLAC3D) are only 
 }
 
 .video-item {
-  flex: 0 0 auto;
-  width: 853px;  /* YouTube's standard large size width */
-  scroll-snap-align: start;
+  width: calc((100vw - 120px) / 2);  /* Display 2 videos per row with gap */
+  max-width: 853px;  /* Max width for YouTube's large size */
 }
 
 .video-item h3 {
@@ -140,31 +136,33 @@ Agents for commerical software (PLAXIS2D, PLAXIS3D, FLAC2D and FLAC3D) are only 
 }
 
 .video-item iframe {
-  width: 853px;  /* YouTube's standard large size width */
-  height: 480px; /* YouTube's standard large size height */
+  width: 100%;
+  height: calc(((100vw - 120px) / 2) * 0.5625);  /* Maintain 16:9 aspect ratio */
+  max-width: 853px;
+  max-height: 480px;
   border: none;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Add responsive behavior */
-@media (max-width: 900px) {
-  .video-item, .video-item iframe {
-    width: 640px;
-    height: 360px;
+/* Responsive behavior */
+@media (max-width: 1600px) {
+  .video-item {
+    width: calc((100vw - 80px) / 1.5);  /* Slightly larger for medium screens */
+  }
+  
+  .video-item iframe {
+    height: calc(((100vw - 80px) / 1.5) * 0.5625);
   }
 }
 
-@media (max-width: 680px) {
-  .video-item, .video-item iframe {
-    width: 426px;
-    height: 240px;
+@media (max-width: 900px) {
+  .video-item {
+    width: calc(100vw - 40px);  /* Full width for small screens */
   }
   
-  .video-scroll-container {
-    padding: 20px 20px;
-    width: calc(100vw - 40px);
-    margin: 0 -20px;
+  .video-item iframe {
+    height: calc((100vw - 40px) * 0.5625);
   }
 }
 </style>
