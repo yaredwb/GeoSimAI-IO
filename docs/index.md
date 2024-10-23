@@ -24,7 +24,12 @@ The ability to accomplish tasks via natural language instructions is one of the 
   <div class="video-scroll-container">
     <div class="video-item">
       <h3>Demo of GeoSim.AI Interface</h3>
-      <iframe src="https://www.youtube-nocookie.com/embed/_LprVXHBT-I?controls=1&modestbranding=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe 
+        src="https://www.youtube-nocookie.com/embed/_LprVXHBT-I?controls=1&modestbranding=1&rel=0&showinfo=0&enablejsapi=1&playlist=_LprVXHBT-I&iv_load_policy=3"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
     </div>
   </div>
 </div>
@@ -35,11 +40,21 @@ The ability to accomplish tasks via natural language instructions is one of the 
   <div class="video-scroll-container">
     <div class="video-item">
       <h3>Text Prompt</h3>
-      <iframe src="https://www.youtube-nocookie.com/embed/Te3kfmKfaSA?controls=1&modestbranding=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe 
+        src="https://www.youtube-nocookie.com/embed/Te3kfmKfaSA?controls=1&modestbranding=1&rel=0&showinfo=0&enablejsapi=1&playlist=Te3kfmKfaSA&iv_load_policy=3"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
     </div>
     <div class="video-item">
       <h3>Image + Text Prompt</h3>
-      <iframe src="https://www.youtube-nocookie.com/embed/Uu2_jwBv4iw?controls=1&modestbranding=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe 
+        src="https://www.youtube-nocookie.com/embed/Uu2_jwBv4iw?controls=1&modestbranding=1&rel=0&showinfo=0&enablejsapi=1&playlist=Uu2_jwBv4iw&iv_load_policy=3"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
     </div>
   </div>
 </div>
@@ -50,11 +65,21 @@ The ability to accomplish tasks via natural language instructions is one of the 
   <div class="video-scroll-container">
     <div class="video-item">
       <h3>Text Prompt</h3>
-      <iframe src="https://www.youtube-nocookie.com/embed/NVIivwbvIMg?controls=1&modestbranding=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe 
+        src="https://www.youtube-nocookie.com/embed/NVIivwbvIMg?controls=1&modestbranding=1&rel=0&showinfo=0&enablejsapi=1&playlist=NVIivwbvIMg&iv_load_policy=3"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
     </div>
     <div class="video-item">
       <h3>Image + Text Prompt</h3>
-      <iframe src="https://www.youtube-nocookie.com/embed/GPeWuJPa5Eg?controls=1&modestbranding=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe 
+        src="https://www.youtube-nocookie.com/embed/GPeWuJPa5Eg?controls=1&modestbranding=1&rel=0&showinfo=0&enablejsapi=1&playlist=GPeWuJPa5Eg&iv_load_policy=3"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
     </div>
   </div>
 </div>
