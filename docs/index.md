@@ -90,22 +90,27 @@ Agents for commerical software (PLAXIS2D, PLAXIS3D, FLAC2D and FLAC3D) are only 
 
 <style>
 .video-gallery {
-  max-width: 100%;
+  max-width: 100vw;  /* Use viewport width */
   margin: 0 auto;
   padding: 20px 0;
+  overflow-x: hidden;  /* Hide horizontal overflow at gallery level */
 }
 
 .video-scroll-container {
   display: flex;
   overflow-x: auto;
   gap: 40px;
-  padding: 20px 0;
+  padding: 20px 40px;  /* Added horizontal padding */
   scroll-snap-type: x mandatory;
   scrollbar-width: thin;
+  /* Make the container wider than the viewport */
+  width: calc(100vw - 80px);  /* Account for padding */
+  margin: 0 -40px;  /* Negative margin to counter padding */
 }
 
 .video-scroll-container::-webkit-scrollbar {
   height: 8px;
+  width: calc(100vw - 80px);  /* Match container width */
 }
 
 .video-scroll-container::-webkit-scrollbar-track {
@@ -154,6 +159,12 @@ Agents for commerical software (PLAXIS2D, PLAXIS3D, FLAC2D and FLAC3D) are only 
   .video-item, .video-item iframe {
     width: 426px;
     height: 240px;
+  }
+  
+  .video-scroll-container {
+    padding: 20px 20px;
+    width: calc(100vw - 40px);
+    margin: 0 -20px;
   }
 }
 </style>
