@@ -20,26 +20,43 @@ The ability to accomplish tasks via natural language instructions is one of the 
 
 ### General GeoSim.AI Demos
 
-<div id="general-demos-carousel" class="video-carousel" style="max-width: 800px; margin: 0 auto; position: relative;">
-  <div class="video-container" style="display: flex; justify-content: center; align-items: center;"></div>
-  <div class="prev-video nav-arrow" style="left: -50px;">&lsaquo;</div>
-  <div class="next-video nav-arrow" style="right: -50px;">&rsaquo;</div>
+<div class="video-gallery">
+  <div class="video-scroll-container">
+    <div class="video-item">
+      <h3>Demo of GeoSim.AI Interface</h3>
+      <iframe src="https://www.youtube.com/embed/_LprVXHBT-I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
 </div>
 
 ### ADONIS AI Agent Demos
 
-<div id="adonis-demos-carousel" class="video-carousel" style="max-width: 800px; margin: 0 auto; position: relative;">
-  <div class="video-container" style="display: flex; justify-content: center; align-items: center;"></div>
-  <div class="prev-video nav-arrow" style="left: -50px;">&lsaquo;</div>
-  <div class="next-video nav-arrow" style="right: -50px;">&rsaquo;</div>
+<div class="video-gallery">
+  <div class="video-scroll-container">
+    <div class="video-item">
+      <h3>Text Prompt</h3>
+      <iframe src="https://www.youtube.com/embed/Te3kfmKfaSA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-item">
+      <h3>Image + Text Prompt</h3>
+      <iframe src="https://www.youtube.com/embed/Uu2_jwBv4iw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
 </div>
 
 ### HYRCAN AI Agent Demos
 
-<div id="hyracan-demos-carousel" class="video-carousel" style="max-width: 800px; margin: 0 auto; position: relative;">
-  <div class="video-container" style="display: flex; justify-content: center; align-items: center;"></div>
-  <div class="prev-video nav-arrow" style="left: -50px;">&lsaquo;</div>
-  <div class="next-video nav-arrow" style="right: -50px;">&rsaquo;</div>
+<div class="video-gallery">
+  <div class="video-scroll-container">
+    <div class="video-item">
+      <h3>Text Prompt</h3>
+      <iframe src="https://www.youtube.com/embed/NVIivwbvIMg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-item">
+      <h3>Image + Text Prompt</h3>
+      <iframe src="https://www.youtube.com/embed/GPeWuJPa5Eg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
 </div>
 
 ### AI Agents for Commercial Software
@@ -47,86 +64,56 @@ The ability to accomplish tasks via natural language instructions is one of the 
 Agents for commerical software (PLAXIS2D, PLAXIS3D, FLAC2D and FLAC3D) are only for internal use at the moment.
 
 <style>
-  .nav-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    font-size: 48px;
-    color: #333;
-    background-color: rgba(255, 255, 255, 0.7);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.video-gallery {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.video-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px 0;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+}
+
+.video-scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.video-scroll-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.video-scroll-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.video-scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.video-item {
+  flex: 0 0 auto;
+  width: 400px;
+  scroll-snap-align: start;
+}
+
+.video-item h3 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+.video-item iframe {
+  width: 100%;
+  height: 225px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
 </style>
-
-<style>
-  .inactive-arrow {
-    opacity: 0.5;
-    cursor: not-allowed;
-  }
-</style>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const carousels = [
-    {
-      id: 'general-demos-carousel',
-      videos: [
-        { title: "Demo of GeoSim.AI Interface", id: "_LprVXHBT-I" }
-      ]
-    },
-    {
-      id: 'adonis-demos-carousel',
-      videos: [
-        { title: "Text Prompt", id: "Te3kfmKfaSA" },
-        { title: "Image + Text Prompt", id: "Uu2_jwBv4iw" }
-      ]
-    },
-    {
-      id: 'hyracan-demos-carousel',
-      videos: [
-        { title: "Text Prompt", id: "NVIivwbvIMg" },
-        { title: "Image + Text Prompt", id: "GPeWuJPa5Eg" }
-      ]
-    }
-  ];
-
-  carousels.forEach(carousel => {
-    let currentVideoIndex = 0;
-    const videoContainer = document.querySelector(`#${carousel.id} .video-container`);
-    const prevArrow = document.querySelector(`#${carousel.id} .prev-video`);
-    const nextArrow = document.querySelector(`#${carousel.id} .next-video`);
-
-    function showVideo(index) {
-      const video = carousel.videos[index];
-      videoContainer.innerHTML = `
-        <div>
-          <h3 style="text-align: center;">${video.title}</h3>
-          <iframe width="760" height="428" src="https://www.youtube.com/embed/${video.id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      `;
-
-      // Add or remove the 'inactive-arrow' class based on the current video index
-      prevArrow.classList.toggle('inactive-arrow', index === 0);
-      nextArrow.classList.toggle('inactive-arrow', index === carousel.videos.length - 1);
-    }
-
-    prevArrow.addEventListener('click', function() {
-      currentVideoIndex = (currentVideoIndex - 1 + carousel.videos.length) % carousel.videos.length;
-      showVideo(currentVideoIndex);
-    });
-
-    nextArrow.addEventListener('click', function() {
-      currentVideoIndex = (currentVideoIndex + 1) % carousel.videos.length;
-      showVideo(currentVideoIndex);
-    });
-
-    showVideo(currentVideoIndex);
-  });
-});
-</script>
