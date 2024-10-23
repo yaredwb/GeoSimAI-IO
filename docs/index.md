@@ -24,7 +24,7 @@ The ability to accomplish tasks via natural language instructions is one of the 
   <div class="video-scroll-container">
     <div class="video-item">
       <h3>Demo of GeoSim.AI Interface</h3>
-      <iframe src="https://www.youtube.com/embed/_LprVXHBT-I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/_LprVXHBT-I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </div>
@@ -35,11 +35,11 @@ The ability to accomplish tasks via natural language instructions is one of the 
   <div class="video-scroll-container">
     <div class="video-item">
       <h3>Text Prompt</h3>
-      <iframe src="https://www.youtube.com/embed/Te3kfmKfaSA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Te3kfmKfaSA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="video-item">
       <h3>Image + Text Prompt</h3>
-      <iframe src="https://www.youtube.com/embed/Uu2_jwBv4iw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Uu2_jwBv4iw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </div>
@@ -50,11 +50,11 @@ The ability to accomplish tasks via natural language instructions is one of the 
   <div class="video-scroll-container">
     <div class="video-item">
       <h3>Text Prompt</h3>
-      <iframe src="https://www.youtube.com/embed/NVIivwbvIMg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/NVIivwbvIMg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="video-item">
       <h3>Image + Text Prompt</h3>
-      <iframe src="https://www.youtube.com/embed/GPeWuJPa5Eg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/GPeWuJPa5Eg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </div>
@@ -73,7 +73,7 @@ Agents for commerical software (PLAXIS2D, PLAXIS3D, FLAC2D and FLAC3D) are only 
 .video-scroll-container {
   display: flex;
   overflow-x: auto;
-  gap: 20px;
+  gap: 40px;
   padding: 20px 0;
   scroll-snap-type: x mandatory;
   scrollbar-width: thin;
@@ -99,7 +99,7 @@ Agents for commerical software (PLAXIS2D, PLAXIS3D, FLAC2D and FLAC3D) are only 
 
 .video-item {
   flex: 0 0 auto;
-  width: 400px;
+  width: 560px;
   scroll-snap-align: start;
 }
 
@@ -110,8 +110,6 @@ Agents for commerical software (PLAXIS2D, PLAXIS3D, FLAC2D and FLAC3D) are only 
 }
 
 .video-item iframe {
-  width: 100%;
-  height: 225px;
   border: none;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
