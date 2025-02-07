@@ -4,7 +4,7 @@ title: GeoSim.AI - Coming soon...
 mathjax: true
 ---
 
-#### By [Yared W. Bekele](https://yaredwb.github.io/)
+#### [Yared W. Bekele](https://yaredwb.github.io/)
 
 ### A new paradigm in computational geomechanics
 
